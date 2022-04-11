@@ -52,4 +52,12 @@
 /* Custom styles */
 .flex-container {
   display: flex;
+  height: 100vh;
+  /* flex-flow: column wrap; */
+  flex-direction: column-reverse;
+  justify-content: space-evenly;
+}
+
+.flex-item {
+  /* width: 100px; */
 }
